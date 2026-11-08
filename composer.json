@@ -1,0 +1,53 @@
+{
+    "name": "youvision/think-verifying",
+    "description": "ThinkPHP 8 验证码生成与校验组件，专注验证码、token、场景隔离、频率限制与一次性校验",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "thinkphp",
+        "thinkphp8",
+        "verify",
+        "verifying",
+        "verification-code"
+    ],
+    "authors": [
+        {
+            "name": "youvision"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "topthink/framework": "^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6 || ^10.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Youvision\\ThinkVerifying\\": "src/"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Youvision\\ThinkVerifying\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "think": {
+            "services": [
+                "Youvision\\ThinkVerifying\\Service"
+            ],
+            "config": {
+                "verifying": "config/verifying.php"
+            }
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

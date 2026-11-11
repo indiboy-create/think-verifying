@@ -1,3 +1,8 @@
+## ThinkPHP-PanGu - 盘古ThinkPHP开源索引!
+面向 ThinkPHP 的开源工程索引：组件、框架、服务与发布工具，按能力组织，持续整理。
+仓库地址：**<https://github.com/indiboy-create/ThinkPHP-PanGu/>**
+在线站点：**<https://indiboy-create.github.io/ThinkPHP-PanGu/>**
+
 # youvision/think-verifying
 
 ThinkPHP 8 验证码生成与校验组件，只专注验证码核心逻辑，不包含短信、邮件等发送实现。业务层拿到验证码后，可自行通过 `youvision/think-easysms`、`youvision/think-mailer` 或其它通道发送。
